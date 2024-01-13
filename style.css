@@ -2,10 +2,12 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+   
 }
 body{
     overflow: hidden;
-    background-color: rgb(249, 249, 249);
+    
+    
 }
 #q {
   color: rgb(42, 74, 235);
@@ -13,8 +15,9 @@ body{
 
 #heading{
     font-size: 2em;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    margin: 0px;
 }
 
 
@@ -39,6 +42,7 @@ body{
     float:left;
     width: 50%;
     padding: 10px;
+    background-color: white;
     height: auto; /* Should be removed. Only for demonstration */
   }
   
@@ -78,7 +82,7 @@ body{
     }
     .column1{
       width: 40%;
-   margin-top:40px;
+   
     }
     .about-img{
    display:block;
@@ -105,6 +109,7 @@ body{
 }
 p{
     color: rgb(88, 82, 82);
+    letter-spacing: 0.01rem;
 }
 #more {display: none;}
 
