@@ -25,6 +25,7 @@
       display: flex;
       justify-content: space-evenly;
     }
+   /* background video */
     video{ 
          position: fixed;
             z-index: -100;
@@ -32,6 +33,74 @@
             min-height: 100%;
      
         }
+        video{ 
+         position: fixed;
+            z-index: -100;
+           min-width: 100%;
+            min-height: 100%;
+     
+        }
+        .outer {
+            width: 100%;
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgba(20, 20, 42, 0.362);
+            color: #dfd5d5;
+            position: relative;
+            border: none;
+            letter-spacing: 2px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .inner {
+            font-size: 120px;
+            padding-top: 50px;
+        }
+        .college-name{
+            font-size: 50px;
+            padding: 20px;
+            text-align: center;
+
+        }
+        .custom-shape-divider-bottom-1705225688 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1705225688 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 118px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1705225688 .shape-fill {
+    fill: #FDFDFD;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1705225688 svg {
+        width: calc(100% + 1.3px);
+        height: 101px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1705225688 svg {
+        width: calc(100% + 1.3px);
+        height: 44px;
+    }
+}
 
   </style>
 </head>
@@ -48,8 +117,15 @@
       </a>
     </div>
   </nav>
-  <img src="bannner.png" class="img-fluid" alt="banner image" id="banner">
-  <center>
+  <div class="outer">
+    <div class="inner">Rohit birajdar</div>
+    <div class="college-name">College of computer science and information technology latur.</div>
+    <div class="custom-shape-divider-bottom-1705225688">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+      </svg>
+  </div>
+  </div>  <center>
     <h1 id="heading">About</h1>
   </center>
   <div class="row">
