@@ -207,6 +207,9 @@ fill: #FDFDFD;
     font-size: 1.4em;
 
 }
+#margin-top-problem{
+  margin-top: 150px;
+}
 }
 
 
@@ -279,6 +282,7 @@ background-position: 200% center;
             width: 150px;
         }
     }
+    
 
     #custom_block {
         max-height: 400px;
