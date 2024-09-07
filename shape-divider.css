@@ -1,0 +1,67 @@
+
+
+video{ 
+ position: fixed;
+    z-index: -100;
+   min-width: 100%;
+    min-height: 100%;
+
+}
+.outer {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(231, 231, 235, 0.524);
+    position: relative;
+    border: none;
+}
+
+.inner {
+    font-size: 120px;
+    padding-top: 50px;
+}
+.college-name{
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+
+}
+.custom-shape-divider-bottom-1705225688 {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+}
+
+.custom-shape-divider-bottom-1705225688 svg {
+position: relative;
+display: block;
+width: calc(100% + 1.3px);
+height: 118px;
+transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1705225688 .shape-fill {
+fill: #FDFDFD;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+.custom-shape-divider-bottom-1705225688 svg {
+width: calc(100% + 1.3px);
+height: 101px;
+}
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+.custom-shape-divider-bottom-1705225688 svg {
+width: calc(100% + 1.3px);
+height: 44px;
+}
+}
