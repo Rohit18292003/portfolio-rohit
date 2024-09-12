@@ -94,15 +94,15 @@ height: 44px;
 @media (max-width:765px){
 .outer{
 height: 350px;
-font-size: 1.4em;
+
 
 }
 .inner{
-padding-top: 20px;
+font-size: 1px;
 
 }
 .college-name{
-font-size: 1.4em;
+font-size: 0.4em;
 
 }
 #margin-top-problem{
