@@ -94,6 +94,7 @@ height: 44px;
 @media (max-width:765px){
 .outer{
 height: 350px;
+font-size: 2.4em;
 
 }
 .inner{
